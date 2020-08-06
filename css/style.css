@@ -1,0 +1,198 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    height: 51px;
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.label {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+    font-size: 11px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 6px 11px 9px 13px;
+    margin: 70px auto 0 auto;
+}
+
+.title {
+    margin: 38px auto 5px auto;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.menu .menu_item {
+    border-right: 2px  dotted #ffffff;
+    padding-right: 28px;
+}
+
+.subheader {
+    height: 84px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0, .6);
+    margin-top: 51px;
+    
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    margin-top: 16px;
+    display: block;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.subheader .subheader_call {
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 19px;
+    /* margin-left: 22px; */
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: right;
+}
+
+.subheader .subheader_btn {
+    width: 178px;
+    height: 46px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.promo {
+    /* min-height: 800px; */
+    background: url(../img/bg/main_bg.png) center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    text-align: center;
+    line-height: 60px;
+}
+
+.promo .promo_subheader {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 265px;
+    height: 69px;
+    background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.2);
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.advan {
+    height: 899px;
+}
+
+
+
+.advan .advan_item {
+    min-height: 150px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advan .advan_item .advan_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 114px;
+    min-height: 114px;
+}
+
+
+.advan .advan_item .advan_descr .advan_descrHeader {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #1eacc7;
+}
+
+.advan .advan_item .advan_descr .advan_descrText {
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+}
